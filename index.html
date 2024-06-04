@@ -30,7 +30,7 @@
         </nav>
     </header>
 
-    <section>
+    <section class="container">
         <div class="list">
             
             <div class="item active">
@@ -103,18 +103,25 @@
 
 
         <div class="arrows">
-            <button>
+            <button id="prev">
                 <img src="./imagens/arrow.png" alt="seta esquerda">
             </button>
-            <button>
+            <button id="next">
                 <img src="./imagens/arrow.png" alt="seta direita">
             </button>
         </div>
 
         <div class="indicators">
             <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>    
         </div>
     </section>
+
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
